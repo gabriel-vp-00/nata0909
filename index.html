@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>TechDash</title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        
+        <header class="header">
+            <div class="logo">
+                TechDash PRO
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item">Visão Geral</a>
+                <a href="#" class="nav-item">Segurança</a>
+                <a href="#" class="nav-item">Notificações</a>
+                <a href="#" class="nav-item">Perfil</a>
+            </nav>
+        </header>
+
+       
+        <section class="configuracoes_cards">
+            <h2 class="section-title">Resumo da Conta</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Plano Atual</h3>
+                    <p>Você está no plano <strong>Enterprise</strong>. A próxima renovação ocorre em 30 dias.</p>
+                </div>
+                <div class="card">
+                    <h3>Uso do Armazenamento</h3>
+                    <p>Você utilizou <strong>50 gB</strong> dos 100 GB disponíveis no seu servidor.Exemplo: Notebook, Smartphone, Tablet.</p>
+                </div>
+                <div class="card">
+                    <h3>Dispositivos Ativos</h3>
+                    <p>Existem <strong>3 sessões ativas</strong> vinculadas a esta conta no momento.</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="grupo">
+            <h2 class="section-title">Preferências do Usuário</h2>
+            <form action="#">
+                <div class="exibiçoes">
+                    <label for="username">Nome de Exibição:</label>
+                    <input type="text" id="username" value="Alexia Oliveira">
+                </div>
+
+                <div class="exibiçoes">
+                    <label for="email">E-mail de Contato:</label>
+                    <input type="email" id="email" value="alexia@exemplo.com">
+                </div>
+
+                <div class="exibiçoes">
+                    <label for="theme">Tema da Interface:</label>
+                    <select id="theme">
+                        <option value="light">Claro (Padrão)</option>
+                        <option value="dark">Escuro</option>
+                        <option value="system">Acompanhar Sistema</option>
+                    </select>
+                </div>
+
+                <div class="actions-group">
+                    <button type="button" class="btn btn-secondary">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
